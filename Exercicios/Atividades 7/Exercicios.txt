@@ -1,0 +1,70 @@
+Continuando com os estudos de SQL para ser entregue no dia 26/02/2024.
+Foquem em:
+    PK
+    FK
+    INDEX
+    SUBQUERIES
+    HAVING
+    GROUP BY
+    UNION
+    JOINS
+    BEGIN TRANSACTION/WORK
+    COMMIT
+    ROLLBACK
+
+Novos exercícios:
+21- Retornar todos os campos da tabela livros com limite de 5 registros
+22- Retornar todas as pessoas que realizaram algum pedido
+23- Retornar os campos nome e total da tabela livros com o seguinte critério:
+    total = qtd_estoque * preco com 2 casas decimais
+    Utilizar subquery para resolver esse exercício.
+    Obs.: A utilização de subquery não é necessária, está sendo pedido apenas como exercício.
+24- Retornar todas as colunas de livros cujo número de pedidos seja maior ou igual a 5
+25- Retornar todos os livros cuja a quantidade de estoque é menor do que 2 vezes a quantidade pedida
+26- Unir as tabelas livros e pedidos (à esquerda) e trazer todos os campos.
+27- Juntar as tabelas livros e pedidos e retornar os livros já comprados.
+28- Retornar o nome dos livros e a quantidade total já pedida
+29- Juntar a tabela pessoa com a de pedidos
+30- Utilizar a tela pedidos à direita e retornar a intercessão com a tabela de pessoas
+31- Unir as tabelas pedidos e pessoas e retornar os elementos comuns
+32- Criar a relação de todos os elementos da tabela pessoas com a de pedidos (produto cartesiano entre as tabelas - CROSS JOIN)
+33- Unir o resultado de 2 selects em uma única tabela
+    Primeiro) nome e dt_expedicao de livros cujo preco e maior do que 50
+    Segundo)  nome e dt_expedicao de livros cujo preco e menor do que 50
+34- Unir o resultado de 2 selects em uma única tabela
+    Primeiro) nome e dt_expedicao de livros cujo preco e maior do que 50
+    Segundo)  nome e dt_expedicao de livros cujo preco e menor do que 100
+35- Realizar o FULL ALTER JOIN entre as tabelas livros e pedidos retornando nome, dt_expedicao, num_pedido e id_pessoa
+36- Inserir o livro "o poder das frutas" cuja edição é 1 e a data de expedição é 14/03/2019 com a quantidade em estoque igual a 50 e o preco de R$120,25
+37- Alterar o nome do livro "o poder das frutas" para "o poder das hortaliças"
+38- Excluir o livro "o poder das hortaliças"
+
+
+
+-------------------
+Material de Estudo
+
+SQL VIEWS
+https://www.w3schools.com/sql/sql_view.asp
+https://www.geeksforgeeks.org/sql-views/
+https://www.mssqltips.com/sqlservertip/5147/limitations-when-working-with-sql-server-views/
+https://copyprogramming.com/howto/can-we-pass-parameters-to-a-view-in-sql#google_vignette
+
+
+
+
+Complemento:
+------------------
+BEGIN WORK;   -- Abre a transaction
+ROLLBACK;     -- volta os dados e remove o lock da tabela
+COMMIT;       -- realiza a operaçao de forma permanente e remove o lock
+
+BEGIN TRANSACTION;
+DROP TABLE livros;
+
+SELECT * FROM livros;
+
+COMMIT TRANSACTION;  
+ROLLBACK TRANSACTION;
+
+SELECT * FROM livros;

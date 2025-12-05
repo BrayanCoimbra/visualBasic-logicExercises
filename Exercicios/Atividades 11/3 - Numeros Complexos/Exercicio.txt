@@ -1,0 +1,14 @@
+03- 1- Escreva um programa (com formulário) que realize as seguintes operações de números complexos:
+   a) soma
+   b) subtração
+   c) multiplicação
+   d) módulo (valor absoluto)
+
+Obs.: Utilize uma classe chamada Complex como modelo de número complexo.
+      Utilize uma classe chamada ComplexMath que realiza os cálculos de matématica complexa.
+
+ Na classe Complex:
+    Forneça formas que permitam que os objetos dessa classe sejam inicializados (passados valores) das seguintes maneiras:
+    I)  sem parâmetros que inicializa o objeto como zero
+    II) um parâmetro representando a parte real; a parte imaginária será zero
+    III)com dois parâmetros representando as partes real e imaginária

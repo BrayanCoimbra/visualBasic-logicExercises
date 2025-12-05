@@ -1,0 +1,6 @@
+02- Comparador de colchetes
+Faça com que a função BracketMatcher(str) pegue o parâmetro str que está sendo passado e retorne 1 se os colchetes corresponderem corretamente e cada um for contabilizado, caso contrário, retorne 0.
+Por exemplo:
+1- se str for "(hello (world))", então a saída deve ser 1
+2- se str for "((hello (world))" a saída deve ser 0 porque os colchetes não correspondem corretamente.
+3- se str não contiver colchetes, retorne 1

@@ -1,0 +1,5 @@
+este e um arquivo de teste
+que contem multiplas linhas
+para efetuarmos a leitura
+
+do arquivo completo

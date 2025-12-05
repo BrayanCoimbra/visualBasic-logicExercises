@@ -1,0 +1,57 @@
+Conversão de Tipos
+-----------------------------
+https://docs.microsoft.com/pt-br/office/vba/language/concepts/getting-started/type-conversion-functions
+
+Forms
+---------------------
+https://www.macoratti.net/vb_forms.htm
+
+
+Array e collections
+---------------------
+http://www.macoratti.net/arrays.htm
+
+http://macoratti.net/vb_arrtb.htm
+http://macoratti.net/vb_matrz.htm
+
+https://docs.microsoft.com/pt-br/office/vba/language/reference/user-interface-help/ubound-function
+https://docs.microsoft.com/pt-br/office/vba/language/reference/user-interface-help/redim-statement
+
+
+https://analystcave.com/vba-collection/
+
+https://excelmacromastery.com/excel-vba-collections/#:~:text=Collections%20are%20a%20way%20of,both%20worksheets%20and%20chart%20sheets.
+https://docs.microsoft.com/pt-br/office/vba/language/reference/user-interface-help/collection-object
+
+
+
+1- Escreva um programa que seja capaz de “trolar” o colega através de um formulário que contém apenas um botão de fechar.
+Porém ao tentar clicar no botão o mesmo mude de posição impossibilitando que o mesmo seja pressionado.
+O botão não deve exceder (escapar) das margens do formulário.
+Use a criatividade!
+
+
+2- Escreva um programa que calcule o IMC e gere números aleatórios.
+    Este programa deve conter uma CLASSE que calcule as duas operações
+a) Calcular o IMC de uma pessoa
+            Fórmula: IMC = Peso ÷ (Altura × Altura)
+b) Gerador de números primos
+
+
+3- Exercício:
+    a) Programar uma calculadora com as operações de soma, subtração, multiplicação, divisão, percentual, resto da divisão, Valor de PI
+    Obrigatório:
+        Conversões de tipos
+        Tratamento de exceções
+        Uso de Módulo
+        Criar Classe Matemática para as operações da calculadora
+
+    b) Dada a seguinte letra musical:
+"A canoa virou Por deixá-la virar Foi por causa da Maria Que não soube remar Se eu fosse um peixinho E soubesse nadar Tirava a Maria Do fundo do mar A canoa virou Por deixá-la virar Porque se eu mergulho Eu vou me molhar Se eu fosse um peixinho Mas como eu não sou Não posso nadar E a canoa virou"
+
+4- Escrever um programa que retorne:
+    a) A quantidade de ocorrência de vogais (não fazer distinção de caracteres acentuados com não acentuados e de maiúsculas com minúsculas)
+    b) Reverter o texto da letra musical:
+Exemplo: "Hoje está um lindo dia"
+        "dia lindo um está Hoje"
+    c) Remover da letra musical todas as ocorrências da letra 'e'

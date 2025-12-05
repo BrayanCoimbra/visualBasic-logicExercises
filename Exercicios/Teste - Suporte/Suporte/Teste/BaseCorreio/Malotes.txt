@@ -1,0 +1,11 @@
+Código;Código Funcionário;Data de Envio;Data Conferencia;Situacao Malote;Código da Descrição
+1;5;01/10/2022;;Enviado;1
+2;1;04/07/2021;12/30/2022;Recebido;3
+3;12;;2023/07/12;Enviado;1
+4;1;01/09/2021;;;
+5;2;03/02/1999;01/02/1999;Devolvido;4
+6;12;04/02/1999;08/03/2023;Preprando para envio;2
+7;5;23/08/2022;;;
+8;6;04/04/1994;08/03/2023;Preprando para envio;2
+9;7;01/12/2023;;Em análise;5
+10;9;02/12/2023;09/04/1999;Enviado;1

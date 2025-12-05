@@ -1,0 +1,13 @@
+Attribute VB_Name = "Module1"
+Public Const Janeiro = 1
+Public Const Fevereiro = 2
+Public Const Marco = 3
+Public Const Abril = 4
+Public Const Maio = 5
+Public Const Junho = 6
+Public Const Julho = 7
+Public Const Agosto = 8
+Public Const Setembro = 9
+Public Const Outubro = 10
+Public Const Novembro = 11
+Public Const Dezembro = 12

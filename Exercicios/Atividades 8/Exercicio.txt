@@ -1,0 +1,64 @@
+Links adicionais sobre Banco de Dados:
+
+http://www.macoratti.net/lstview2.htm 
+
+https://www.w3schools.com/sql/sql_view.asp
+https://www.devmedia.com.br/introducao-a-views/1614
+https://www.devmedia.com.br/introducao-aos-stored-procedures-no-sql-server/7904
+
+-------------------------------------------------------
+Atividade a ser desenvolvida:
+
+Realizar o cadastro de livros de uma Biblioteca:
+1- Criar um formulário que permita adicionar um novo livro
+a) Nome do livro
+b) Edição
+c) Autor
+d) Data de Publicação
+
+Apresentar a mensagem correspondente para o usuário de livro inserido
+
+
+2- Pesquisar um determinado livro (ou mais de um) por:
+a) Nome do livro
+b) Edição
+c) Autor
+d) Data de Publicação
+
+Inserir no controle da busca os operadores lógicos (AND, OR...) conforme necessário
+Dica: Utilizar no formulário o componente CheckBox
+         Utilizar um ListView para retornar o(s) livro(s)
+
+Apresentar a mensagem correspondente para o usuário
+
+
+3- Editar um livro existente na biblioteca
+Com o livro pesquisado/localizado, permitir a alteração do cadastro desse livro
+Apresentar a mensagem correspondente para o usuário de edição concluída
+
+4- Remover um determinado livro
+Com o livro pesquisado/localizado, permitir a exclusão do livro da biblioteca
+Apresentar a mensagem de exclusão correspondente
+
+
+Obs.: Criar a Classe de Livros que permita as operações desejadas
+
+
+Complemento:
+------------------
+BEGIN WORK;   -- Abre a transaction
+ROLLBACK;     -- volta os dados e remove o lock da tabela
+COMMIT;       -- realiza a operaçao de forma permanente e remove o lock
+
+BEGIN TRANSACTION;
+DROP TABLE livros;
+
+SELECT * FROM livros;
+
+COMMIT TRANSACTION;  
+ROLLBACK TRANSACTION;
+
+SELECT * FROM livros;
+
+
+Entrega: 27/02/24

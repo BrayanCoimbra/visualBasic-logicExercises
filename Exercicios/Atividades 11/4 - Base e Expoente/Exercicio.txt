@@ -1,0 +1,5 @@
+04- Escreva um programa que retorne o expoente de um número através de um formulário que permita o usuário informar a base e o expoente.
+   Para a realização desse exercício é OBRIGATÓRIO o uso de recursividade. Portanto, escreva a função recursiva Power(base, exponent) que quando invocada retorna o valor da base elevado ao expoente.
+   Por exemplo: power(3,4) = 3 * 3 * 3 * 3
+   O expoente deve ser um inteiro maior ou igual a 1.
+   Lembre que qualquer número ao expoente 1 e o próprio número.

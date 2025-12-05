@@ -1,0 +1,3 @@
+09- Criar um programa em VB que apresente o Salmo do dia.
+      Escolher no mínimo 10 versículos de Salmos do seu agrado.
+      Criar um formulário para apresentar o versículo correspondente e um botão para apresentar um novo versículo.

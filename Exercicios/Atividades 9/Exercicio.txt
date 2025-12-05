@@ -1,0 +1,31 @@
+Estudar e fazer um breve resumo sobre arquivo XML e JSON.
+
+XML
+https://www.tutorialspoint.com/xml/index.htm
+https://www.w3.org/TR/xml/
+
+JSON
+https://rockcontent.com/br/blog/json/
+https://www.devmedia.com.br/json-tutorial/25275
+
+Conversores Online
+https://www.site24x7.com/pt/tools/xml-para-json.html
+https://www.convertjson.com/xml-to-json.htm
+
+
+
+Escrever um programa que trabalhe com manipulação de arquivos e diretórios.
+1- Permitir ao operador escrever um texto.
+O texto deve ser salvo no local (diretório) informado pelo usuário com o seu respectivo nome de arquivo (inclusive a sua extensão .txt, .json, .xml)
+
+2- Permitir a leitura do conteúdo do arquivo texto informado pelo usuário.
+
+3- Excluir o arquivo de texto informado pelo usuário
+
+4- Listar os arquivos de um determinado diretório incluindo suas pastas e subpastas
+
+5- Realizar o backup completo de um determinado diretório
+    Permitir ao usuário informar a pasta de origem e de destino
+
+
+Entrega dia: 04/03/24

@@ -1,0 +1,11 @@
+11- Problema da letra mais frequente
+Faça um programa capaz de identificar a(s) letra(s) mais frequente(s) em uma cadeia de caracteres. 
+A entrada será uma cadeia de caracteres (texto)
+A saída deverá ser a(s) letra(s) mais frequente(s) seguida por sua porcentagem. 
+Deve-se desconsiderar diferenças de maiúsculas e minúsculas.
+Qualquer outro caractere que não seja uma letra de A a Z deverá ser desconsiderado no cálculo da porcentagem e na contagem.
+Exemplo:
+   Entrada: aabcc
+   Saída: a 40.00%
+          b 20.00%
+          c 40.00%

@@ -1,0 +1,35 @@
+﻿{
+  "Bacen": {
+    /*
+    "DictUrl": "http://docker-linux.xxx.com.br:9595",
+    "ArqUrl": "http://docker-linux.xxx.com.br:9595"
+  */
+    "DictUrl": "https://dict-h.pi.xxx.net.br:16523",
+    "ArqUrl": "https://arq-h.pi.xxx.net.br:1130"
+  },
+  "Certificados": {
+    "Transmissao": {
+      "NroSerie": "3cf88941528c0ff2f6203"
+    },
+    "Assinatura": {
+      "NroSerie": "3cf88941528c0ff2f6203"
+    }
+  },
+  "Database": {
+    "Provedor": "ORACLE",
+    "OracleTns": "LYDORAHM.WORLD",
+    "OracleUid": "Teste",
+    "OraclePwd": "Teste",
+    "MsSqlHost": "localhost",
+    "MsSqlDatabase": "database",
+    "MsSqlUsuario": "sa",
+    "MsSqlSenha": "passwd"
+  },
+  "Log": {
+    "Dict": {
+      "Ativar": true,
+      "IncluirHeaders": true,
+      "IncluirBody": true
+    }
+  }
+}

@@ -1,0 +1,29 @@
+Realizarem as seguintes atividades relacionadas a LydiansWin:
+01- Obter a data e hora do sistema operacional no formato DD/MM-YYY HH:MM:SS
+02- Retornar o usuário do computador
+03- Verificar se o usuário é administrador ou não
+04- Retornar o nome do computador
+05- Obter o nome do sistema operacional
+06- Verificar a versão do sistema operacional
+07- Obter o caminho da pasta 'Meus Documentos'
+08- Obter o caminho da pasta 'Minhas Imagens'
+09- Obter o caminho da pasta temporária
+10- Verificar se o sistema operacional é de 32 bits
+11- Criar a chave "HKEY_LOCAL_MACHINE\Software\LydiansTeste\Laboratorio" no registro do Windows
+       Dica: abrir o Prompt de comando como administrado e executar regedit para abrir o registro do Windows.
+       Cuidado: As operações de 09 a 13 devem ser bem cuidadas para não realizarem operação indevida no registro
+12- Criar o registro "Semana" com valor "11" na chave anteriormente criada
+13- Obter o valor do registro "Semana"
+14- Excluir o registro "Semana" anteriormente criado
+15- Excluir a chave "HKEY_LOCAL_MACHINE\Software\LydiansTeste"
+16- Calcular o Hash MD5 do arquivo HTML_Publico.zip
+17- Calcular o Hash SHA1 do arquivo HTML_Publico.zip
+18- Retornar a quantidade de arquivos do arquivo HTML_Publico.zip
+19- Extrair o arquivo HTML_Publico.zip
+20- Compactar o arquivo Filhote.bmp
+21- Verificar se o arquivo "laboratorio.txt" existe na pasta de arquivos temporário
+22- Copiar o arquivo Filhote.bmp para a pasta temporária
+23- Apagar o arquivo Filhote.zip
+
+Entrega dia: 07/03/24
+

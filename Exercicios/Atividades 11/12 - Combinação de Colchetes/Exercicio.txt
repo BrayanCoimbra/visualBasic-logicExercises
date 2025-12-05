@@ -1,0 +1,30 @@
+12- Combinações de colchetes
+
+Faça com que a função BracketCombinations(num) leia um número que será um número inteiro maior ou igual a zero e retorne o número de combinações válidas que podem ser formadas por pares de parênteses.
+Por exemplo, se a entrada for 3, então as combinações possíveis de 3 pares de parênteses são: () () (), () (()), (()) (), ((())), e (()()).
+Existem 5 combinações no total quando a entrada é 3, então seu programa deve retornar 5.
+
+Parte 1- Escreva o programa que retorne o valor das possíveis combinações segundo a seguinte fórmula de Catalan:
+Combinações = (fatorial(2 * num)) / ((fatorial(num + 1)) * (factorial(num)))
+Escreva a função que calcule o fatorial de forma RECURSIVA
+
+Parte 2- Imprima o resultado das combinações de parênteses.
+
+Exemplo_1: Entrada igual a 3
+() () ()
+() (())
+(()) ()
+((()))
+(()())
+
+Exemplo_2: Entrada igual a 4
+() () () ()
+() () (())
+() (()) ()
+(()) () ()
+(()) (())
+() ((()))
+((())) ()
+(()()) ()
+() (()())
+(()()())

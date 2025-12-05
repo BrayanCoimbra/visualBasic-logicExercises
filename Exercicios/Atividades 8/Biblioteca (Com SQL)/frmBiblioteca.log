@@ -1,0 +1,10 @@
+Line 22: Class ComctlLib.ListView of control lstLivros was not a loaded control class.
+Line 28: The property name _ExtentX in lstLivros is invalid.
+Line 29: The property name _ExtentY in lstLivros is invalid.
+Line 30: The property name View in lstLivros is invalid.
+Line 31: The property name Sorted in lstLivros is invalid.
+Line 32: The property name LabelWrap in lstLivros is invalid.
+Line 33: The property name HideSelection in lstLivros is invalid.
+Line 35: The property name _Version in lstLivros is invalid.
+Line 36: The property name Icons in lstLivros is invalid.
+Line 42: The property name NumItems in lstLivros is invalid.

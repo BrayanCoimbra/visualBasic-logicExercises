@@ -1,0 +1,8 @@
+Código;Descrição
+1;Malote enviado para o destinatário
+2;Malote em fase de preparação para envio ao destinatário
+3;Malote recebido na agência
+4;Malote devolvido por estar fora do padrão
+5;Malote em análise do seu conteúdo
+6;Malote bloqueado pela justiça
+7;Malote sem os dados do destinatário

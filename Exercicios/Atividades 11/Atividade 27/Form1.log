@@ -1,0 +1,47 @@
+Line 20: Class LydiansOcx.vlr of control vlrFimDia was not a loaded control class.
+Line 35: Class LydiansOcx.vlr of control vlrFimMes was not a loaded control class.
+Line 50: Class LydiansOcx.vlr of control vlrFimAno was not a loaded control class.
+Line 74: Class LydiansOcx.vlr of control vlrIniDia was not a loaded control class.
+Line 89: Class LydiansOcx.vlr of control vlrIniMes was not a loaded control class.
+Line 104: Class LydiansOcx.vlr of control vlrIniAno was not a loaded control class.
+Line 26: The property name _ExtentX in vlrFimDia is invalid.
+Line 27: The property name _ExtentY in vlrFimDia is invalid.
+Line 30: The property name TitNome in vlrFimDia is invalid.
+Line 31: The property name TitLargura in vlrFimDia is invalid.
+Line 32: The property name Decimais in vlrFimDia is invalid.
+Line 33: The property name Inteiros in vlrFimDia is invalid.
+Line 41: The property name _ExtentX in vlrFimMes is invalid.
+Line 42: The property name _ExtentY in vlrFimMes is invalid.
+Line 45: The property name TitNome in vlrFimMes is invalid.
+Line 46: The property name TitLargura in vlrFimMes is invalid.
+Line 47: The property name Decimais in vlrFimMes is invalid.
+Line 48: The property name Inteiros in vlrFimMes is invalid.
+Line 56: The property name _ExtentX in vlrFimAno is invalid.
+Line 57: The property name _ExtentY in vlrFimAno is invalid.
+Line 58: The property name Milhar in vlrFimAno is invalid.
+Line 61: The property name TitNome in vlrFimAno is invalid.
+Line 62: The property name TitLargura in vlrFimAno is invalid.
+Line 63: The property name Decimais in vlrFimAno is invalid.
+Line 64: The property name Inteiros in vlrFimAno is invalid.
+Line 80: The property name _ExtentX in vlrIniDia is invalid.
+Line 81: The property name _ExtentY in vlrIniDia is invalid.
+Line 83: The property name TitNome in vlrIniDia is invalid.
+Line 84: The property name TitLargura in vlrIniDia is invalid.
+Line 85: The property name Decimais in vlrIniDia is invalid.
+Line 86: The property name Inteiros in vlrIniDia is invalid.
+Line 87: The property name Value in vlrIniDia is invalid.
+Line 95: The property name _ExtentX in vlrIniMes is invalid.
+Line 96: The property name _ExtentY in vlrIniMes is invalid.
+Line 98: The property name TitNome in vlrIniMes is invalid.
+Line 99: The property name TitLargura in vlrIniMes is invalid.
+Line 100: The property name Decimais in vlrIniMes is invalid.
+Line 101: The property name Inteiros in vlrIniMes is invalid.
+Line 102: The property name Value in vlrIniMes is invalid.
+Line 110: The property name _ExtentX in vlrIniAno is invalid.
+Line 111: The property name _ExtentY in vlrIniAno is invalid.
+Line 112: The property name Milhar in vlrIniAno is invalid.
+Line 114: The property name TitNome in vlrIniAno is invalid.
+Line 115: The property name TitLargura in vlrIniAno is invalid.
+Line 116: The property name Decimais in vlrIniAno is invalid.
+Line 117: The property name Inteiros in vlrIniAno is invalid.
+Line 118: The property name Value in vlrIniAno is invalid.

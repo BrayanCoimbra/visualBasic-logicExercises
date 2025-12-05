@@ -1,0 +1,27 @@
+Depois de liberado a planilha Controle_Malotes.xlsx foi visto que precisa ajustar alguns dados SOMENTE no banco dedos, que estão incorretos.
+
+1 - No cadastro de funcionários a descrição do nome existem caracteres especiais, e os mesmos precisam ser removidos. deixando os nomes sem estes caracteres especiais
+
+2 - Nos detalhes do malote se percebeu que existe datas formato diferente do DD/MM/YYYY (Padrão BR) e precisam ser ajustados
+
+3 - Algumas datas não foram preenchidas
+   O que não tem data de envio, precisa ser preenchido no dia 01/09/2021
+   O que não tem data de conferencia precisa ser preenchida com 41 dias após da data de envio
+   O que não tem situação e código da descrição precisa ser utilizado o código 5
+   
+4 - Incluir 2 novos funcionários com os dados abaixo:
+
+    Nome = Sofia Ionescu-Ogrezeanu
+    Matricula = 24
+    Data de Nascimento = 14/04/1902
+
+
+    Nome = Valentina Tereshkova
+    Matricula = 278
+    Data de Nascimento = 30/12/1922
+	
+5 - Incluir duas novas descrição de situação de malote
+    6 - Malote bloqueado pela justiça
+    7 - Malote sem os dados do destinatário
+	
+* Todas as formas ou comandos utilizados acima deverá ser demostrado com sua imagem de execução no banco de dados	

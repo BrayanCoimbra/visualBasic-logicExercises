@@ -1,0 +1,7 @@
+01- Talvez o mais famoso de todos esquemas de codificação seja o código Morse, desenvolvido por Samuel Morse em 1832 para ser utilizado com o sistema de telégrafo. O código Morse associa uma série de pontos e traços para cada letra do alfabeto, para cada dígito e alguns caracteres especiais (como ponto, vírgula, dois-pontos e ponto-e-vírgula). Em sistemas orientados para áudio, o ponto representa um som curto e o traço representa um som longo. Outras representações de pontos e traços são utilizadas com sistemas baseados em sinais luminosos e sistemas baseados em sinais de bandeira.
+A Separação entre palavras é indicada por um espaço, ou, simplesmente, a ausência de um ponto ou traço. Em um sistema baseado em áudio, um espaço é indicado por um ponto breve de tempo durante o qual nenhum som é transmitido. A versão internacional do código Morse é descrita na figura em anexo.
+
+Escreva um aplicativo que:
+a) Lê uma frase e codifica a frase em código Morse.
+2) Lê código Morse e escreve em texto
+Utilize três espaços em branco entre cada palavra codificada em Morse para facilitar a leitura.

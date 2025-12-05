@@ -1,0 +1,269 @@
+Atividades de 01 até 07 devem ser concluídas até o dia 14/02/2024.
+E as atividades de 08 até 15 devem ser concluídas até o dia 20/02/2024.
+ 
+ 
+http://www.macoratti.net/vbn_mat2.htm 
+https://docs.microsoft.com/pt-br/office/vba/language/reference/user-interface-help/sqr-function 
+https://docs.microsoft.com/pt-br/office/vba/language/reference/user-interface-help/caret-operator 
+ 
+01- Reescrever a Classe Matemática
+    a) Utilizando os novos conceitos (Public, Private, Property...)
+    b) Adicionar a fórmula de Bhaskara na classe
+    c) Adicionar o cálculo Sequência de Fibonacci na classe 
+ 
+--------------------------------------------------
+02- Como você é um super agente secreto, crie um programa que apresente a tabela periódica e destaque os elementos radioativos naturais.
+Ao clicar sobre os elementos radioativos naturais, apresentar uma breve descrição dos mesmos.
+(pesquisar sobre elementos radioativos naturais)
+ 
+--------------------------------------------------
+03- Implemente um carro. O tanque de combustível do carro armazena no máximo 50 litros de gasolina. O carro consome 15 km/litro. Deve ser possível:
+a) Abastecer o carro com uma certa quantidade de gasolina;
+b) Mover o carro em uma determinada distância (medida em km);
+c) Retornar a quantidade de combustível e a distância total percorrida.
+d) Utilizar um controle para inserir o preço da gasolina em litros por quilômetro e calcular o custo do deslocamento.
+ 
+--------------------------------------------------
+04- Realizar o cálculo de matrizes
+Complementar a classe Matemática com as operações de matrizes:
+a) Soma
+     A função de soma de matrizes deve realizar a soma para qualquer matriz
+ 
+b) Subtração
+     A função de subtração de matrizes deve realizar a subtração para qualquer matriz
+ 
+c) Multiplicação por um Número qualquer
+    Multiplicar os elementos da matriz por um número decimal qualquer (fixar o número de casas decimais a 2)
+ 
+d) Produto de Matrizes
+    Realizar o produto de 2 matrizes quaisquer
+   
+e) Matriz Transposta
+     Realizar a transposição de uma matriz qualquer
+ 
+ 
+Obs.: Não é necessário criar um formulário sofisticado.
+          Pode limitar o formulário a uma matriz até 3 x 3
+          As funções devem levar em consideração que as matrizes possuem dimensões diversas (não limitar as matrizes em 3 x 3 - deve ser calculado com matrizes de qualquer tamanho)
+ 
+Dica: Utilizar TextBox para a entrada e saída de dados das matrizes (separado por espaços)
+          A utilização de TextBox não é obrigatória
+          
+--------------------------------------------------
+05 -Resolver de forma computacional (um software) que calcule:
+a) O coeficiente de correlação linear R entre X e Y.
+b) A reta de regressão para a relação entre as variáveis Y e X.
+c) Estime a massa muscular média de mulheres com 50 anos.
+ 
+A matemática já está resolvida no arquivo em anexo.
+Portanto é para fazer apenas a solução computacional do exercício.
+ 
+--------------------------------------------------
+http://www.macoratti.net/lstview2.htm 
+06- Cadastro de livros de uma Biblioteca:
+I- Criar um formulário quer permita adicionar um novo livro
+a) Nome do livro
+b) Edição
+c) Autor
+d) Data de Publicação
+ 
+Armazenar o livro inserido em Collection
+Apresentar a mensagem correspondente para o usuário de livro inserido
+ 
+ 
+II- Pesquisar um determinado livro (ou mais de um) por:
+a) Nome do livro
+b) Edição
+c) Autor
+d) Data de Publicação
+ 
+Inserir no controle da busca os operadores lógicos (AND, OR...) conforme necessário
+Dica: Utilizar no formulário o componente CheckBox
+         Utilizar um ListView para retornar o(s) livro(s)
+ 
+Apresentar a mensagem correspondente para o usuário
+ 
+III- Editar um livro existente na biblioteca
+Com o livro pesquisado/localizado, permitir a alteração do cadastro desse livro
+Apresentar a mensagem correspondente para o usuário de edição concluída
+ 
+IV- Remover um determinado livro
+Com o livro pesquisado/localizado, permitir a exclusão do livro da biblioteca
+Apresentar a mensagem de exclusão correspondente
+ 
+ 
+Obs.: Criar a Classe de Livros que permita as operações desejadas
+ 
+--------------------------------------------------
+07- Um buffer circular, buffer cíclico ou buffer de anel é uma estrutura de dados que usa um único buffer de tamanho fixo como se estivesse conectado de ponta a ponta.
+       Um buffer circular começa vazio e com algum comprimento predefinido.
+ 
+Por exemplo, este é um buffer de 7 elementos:
+[ ][ ][ ][ ][ ][ ][ ]
+ 
+Suponha que um 1 seja escrito no meio do buffer (local inicial exato não importa em um buffer circular):
+[ ][ ][ ][1][ ][ ][ ]
+ 
+Em seguida, suponha que mais dois elementos sejam adicionados - 2 e 3 - que são anexados após o 1:
+[ ][ ][ ][1][2][3][ ]
+ 
+Se dois elementos forem removidos do buffer, os valores mais antigos dentro do buffer serão removidos. Os dois elementos removidos, neste caso, são 1 e 2, deixando o buffer com apenas um 3:
+[ ][ ][ ][ ][ ][3][ ]
+ 
+Se o buffer tiver 7 elementos, ele estará completamente cheio:
+[5][6][7][8][9][3][4]
+ 
+Quando o buffer estiver cheio, um erro será gerado, alertando o cliente que outras gravações serão bloqueadas até que um slot fique livre.
+Quando o buffer está cheio, o cliente pode optar por substituir os dados mais antigos por uma gravação forçada. Nesse caso, mais dois elementos — A e B — são adicionados e substituem os 3 e 4:
+[5][6][7][8][9][A][B]
+ 
+3 e 4 foram substituídos por A e B, tornando 5 agora os dados mais antigos no buffer. Finalmente, se dois elementos forem removidos, o que será retornado será 5 e 6, gerando o buffer:
+[ ][ ][7][8][9][A][B]
+ 
+Como há espaço disponível, se o cliente usar novamente a substituição para armazenar C & D, o espaço onde 5 e 6 foram armazenados anteriormente será usado, não o local de 7 e 8. 7 ainda é o elemento mais antigo e o buffer é novamente cheio.
+[C][D][7][8][9][A][B]
+ 
+Portanto, escreva um programa que represente uma fila circular de tamanho n.
+o programa deve conter uma interface que fixe o tanho do buffer e insira um elemento de cada vez.
+ 
+--------------------------------------------------         
+08- Comparador de colchetes
+Faça com que a função BracketMatcher(str) pegue o parâmetro str que está sendo passado e retorne 1 se os colchetes corresponderem corretamente e cada um for contabilizado, caso contrário, retorne 0.
+Por exemplo:
+1- se str for "(hello (world))", então a saída deve ser 1
+2- se str for "((hello (world))" a saída deve ser 0 porque os colchetes não correspondem corretamente.
+3- se str não contiver colchetes, retorne 1.
+ 
+--------------------------------------------------  
+09- Realizar o processamento de imagem segundo o projeto fornecido (Imagem.zip):
+a) Botão "Cinza"
+   Converter a imagem para "cinza" de acordo com a seguinte fórmula:
+   pixel = (R + G + B) / 3
+   A cor do pixel é a média aritmética da soma das componentes RGB
+   
+b) Botão "Cinza Invertido"
+   Converter a imagem para "cinza invertido" de acordo com a seguinte regra:
+   newR = 255 - pixel
+   newG = 255 - pixel
+   newB = 255 - pixel
+   pixelAtual = (newR + newG + newB) / 3
+   
+c) Botão "Negativo"
+   Converter a imagem para "negativo" de acordo com a seguinte regra:
+   newR = 255 - pixel
+   newG = 255 - pixel
+   newB = 255 - pixel
+ 
+d) Botão "Vermelho"
+   Converter a imagem para "vermelho" de acordo com a seguinte regra:
+   newR = pixel
+   newG = 0
+   newB = 0
+   
+e) Botão "Verde"
+   Converter a imagem para "verde" de acordo com a seguinte regra:
+   newR = 0
+   newG = pixel
+   newB = 0
+ 
+f) Botão "Azul"
+   Converter a imagem para "azul" de acordo com a seguinte regra:
+   newR = 0
+   newG = 0
+   newB = pixel
+ 
+--------------------------------------------------  
+10- A partir do projeto anterior (o da Imagem). Crie um novo projeto com os seguintes botões: 
+a) Rotacionar a Direita (gira a imagem em 90 graus à direita)
+b) Rotacionar a Esquerda (gira a imagem em 90 graus à esquerda)
+c) Rotacionar 180 graus (ponta cabeça)
+ 
+--------------------------------------------------  
+11- Palíndromo é toda palavra ou frase que pode ser lida de trás pra frente e que, independentemente da direção, mantém o seu sentido.
+Exemplos: osso, ovo, mirim e reviver
+Portanto, escreva um programa que receba como entrada uma palavra e verifique se a mesma é um palíndromo.
+Caso a palavra seja palíndromo, imprima a mesma separando os caracteres com três espaços.
+Exemplo: m   i   r   i   m
+ 
+--------------------------------------------------  
+12- Uma empresa quer transmitir dados pela internet, mas está preocupada com a interceptação de dados. Todos os seus dados são transmitidos como inteiros de quatro dígitos. Portanto, você deve escrever um programa que criptografe os dados segundo o algoritmo abaixo:
+a) Obter os dados lidos (inteiros de quatro dígitos)
+b) substituir cada dígito por: (dígito + 7) módulo 10
+c) trocar o primeiro dígito pelo terceiro e trocar o segundo pelo quarto.
+d) apresente o resultado criptografado.
+e) com o resultado criptografado realize a operação contrária e o descriptografe.
+ 
+Obs.: Utilize um formulário de VB que contenha a entrada de dados, as operações necessárias e apresente os resultados esperados.
+ 
+--------------------------------------------------  
+13- Jogo de Azar – Craps (Arquivo Faces_de_Dados.zip)
+Um dos jogos de azar mais populares é um jogo de dados conhecido como "Craps", jogado em cassinos e becos de todo o mundo. As regras do jogo são:
+Um jogador lança dois dados. Cada dado tem seis faces. Cada face contém 1, 2, 3, 4, 5, ou 6 pontos.
+Após os dados pararem, a soma dos pontos das duas faces para cima são somadas.
+Se a soma for 7 ou 11 no primeiro lançamento o jogador ganha.
+se a soma for 2, 3 ou 12 (chamado de Crap) o jogador perde.
+Se a soma for 4, 5, 6, 8, 9 ou 10 no primeiro lançamento é chamado de "ponto" do jogador.
+ 
+Para ganhar o jogador deve lançar novamente os dados até atingir o "ponto" (a soma dos dados do primeiro lançamento).
+Caso a soma desse novo lançamento for 7 o jogador perde.
+Isto ocorre até o valor do ponto ser repetido ou o 7 aparecer.
+ 
+Crie um formulário que contenha o(s) botão(ões) necessários para a realização da tarefa e exiba a imagem dos dados lançados e as mensagens de usuário correspondentes.
+Obs.: Obrigatório utilizar as imagens do arquivo em anexo
+ 
+--------------------------------------------------  
+14- Escreva um programa em VB que contenha um formulário que simule uma grade/tabuleiro de "Jogo da Velha".
+O jogo é representado pelos símbolos "X" e "O".
+Portanto, crie um aplicativo que implemente as regras do jogo.
+O programa deve respeitar as jogadas individuais de cada jogador, sendo uma jogada por vez.
+ 
+--------------------------------------------------  
+15- Uma Máquina de Turing é um modelo computacional matemático que define uma máquina abstrata. Essa máquina manipula símbolos numa fita de papel de acordo com uma tabela de regras simples. Apesar da simplicidade do modelo, é possível construir uma Máquina de Turing capaz de simular qualquer algoritmo computacional.
+A máquina lê os dados de uma “fita” infinita, caractere por caractere (também conhecidos como “símbolos” na terminologia original) e está sempre em um determinado “estado” (estado inicial == string “0”). As regras contêm instruções para “casar” um determinado par estado/símbolo e executar determinadas ações.
+ 
+O primeiro caractere a ser lido é sempre o primeiro caractere da “fita”, no nosso caso, o primeiro caractere da string de dados.
+ 
+As regras permitem que:
+ 
+    Determinada regra seja selecionada por estado corrente e símbolo.
+    Uma vez selecionada uma regra, a máquina pode opcionalmente executar uma (ou várias) das tarefas abaixo:
+        Gravar um novo símbolo na posição corrente.
+        Mover a posição de leitura para a direita.
+        Mover a posição de leitura para a esquerda.
+        Mudar o estado atual da máquina.
+ 
+Exemplo: Dada a entrada "A/B/C/D@"
+ 
+E as regras:
+ 
+1: state=0  simbolo=@  novo_simbolo=.  direção=*        novo_estado=halt
+2: state=0  simbolo=*  novo_simbolo=*  direção=direita  novo_estado=0
+3: state=0  simbolo=/  novo_simbolo=x  direção=direita  novo_estado=y
+4: state=y  simbolo=@  novo_simbolo=.  direção=*        novo_estado=halt
+5: state=y  simbolo=*  novo_simbolo=*  direção=direita  novo_estado=y
+6: state=y  simbolo=/  novo_simbolo=y  direção=direita  novo_estado=0
+ 
+A seguinte saída seria produzida: "AxByCxD"
+ 
+O funcionamento pode ser detalhado da seguinte forma:
+    A máquina inicializa, no estado “0” e lê o primeiro símbolo da fita (A)
+    A regra 2 acima produz o melhor casamento. No caso, estado=“0” e símbolo=”*“ indicando “qualquer símbolo”.
+    A regra 2 não faz qualquer substituição de símbolo, já que o novo símbolo é “*”. A posição na fita é movida para a direita de acordo com a instrução em “direção” e o estado permanece em “0”.
+    As regras são reexecutadas com o segundo símbolo (/), ainda em estado “0”.
+    Dessa vez, a regra 3 casa mais especificamente (estado=“0”, símbolo = “/”).
+    A regra 3 substitui o símbolo corrente na fita (“/”) por x, move a fita para a direita e muda o estado corrente para y
+    O próximo caractere é lido (B)
+    Dessa vez, a regra 5 é utilizada (estado=“y”, símbolo=”*”). A única ação concreta é mover a fita para a direita.
+    Outro caractere é lido (/). Como o estado ainda é “y”, a regra 6 é executada. Dessa vez, troca o carácter por um “y”, move a fita para a direita e muda o estado para “0”.
+    (…)
+ 
+As regras são executadas até que:
+    Uma combinação de estado/símbolo seja encontrada na fita que não existe nas regras. Nesse caso, o programa é abortado.
+    Um estado chamado "halt" seja encontrado. Este estado causa a finalização do programa após a execução das instruções contidas nesta regra.
+ 
+Portanto:
+1- Crie um formulário em VB nos padrões da Lydians que contenha um campo de texto de entrada que forneça a string que representa a fita.
+2- O formulário deve apresentar a string de processamento de saída produzida.
+3- As regras da máquina são as dadas do exemplo acima.
+ 
+Obs.: Todo o código deve seguir as regras de desenvolvimento da Lydians.

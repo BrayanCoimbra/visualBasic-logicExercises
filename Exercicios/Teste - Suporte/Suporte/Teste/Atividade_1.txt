@@ -1,0 +1,30 @@
+Na agencia de correio de São Leopoldo, foi solicitado para criar um controle de malotes.
+O atual controle está dentro de uma planilha em Excel e precisamos migrar a mesma para uma base de dados e criar um relatório que demostre algumas informações deste controle.
+Abaixo será destacado as atividades necessárias:
+
+1 - Analisar a planilha atual de controle, que é o arquivo Controle_Malotes.xlsx, onde contém os dados dos funcionários, Malotes e descrição da situação
+
+2 - Acessar a base de dados abaixo, onde será utilizado a com nome SC_LydiansMDC:
+
+Banco de dados: SQL SERVER
+host: 10.11.12.7\LYDSQLHML
+user: USER_SC
+pw: jHgR3nRjvYJh
+bases:
+SC_LydiansMDC
+SC_LydiansADC
+SC_LydiansBDC
+
+3 - Criar tabelas de banco de dados conforme as abas da planilha.
+
+4 - Criar as chaves primárias e secundárias das tabelas com base no relacionamento e modelagem
+
+5 - Criar uma forma ou ferramenta que migre os dados da planilha para estas novas tabelas criadas na base de dados
+
+6 - Criar uma consulta (Query) que demostre uma lista de identificação do funcionário, onde contenha o nome, matricula, data de envio do malote, situação do malote e descrição da situação
+
+7 - Criar uma interface (VB) que acesse este banco de dados (SQL) e gere um relatório com a consulta do item 6. Será demostrado as mesmas informações da consulta anterior.
+	
+8 - Nesta interface criar filtro por código de funcionário, data de envio e descrição da situação
+
+* Depois de finalizado demostrar as ações feitas por imagens

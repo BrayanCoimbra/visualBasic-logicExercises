@@ -1,0 +1,22 @@
+Estudar os seguintes tópicos de SQL e realizar os exercícios propostos:
+Tópicos de SQL:
+    Tipos de Dados
+    CREATE
+    SELECT
+    AS
+    LIMIT/TOP
+    DISTINCT
+    Instruções Condicionais ( =, <, >, =>, =<, <>)
+    Instruções Lógicas (OR, AND, IS, NOT)
+    Datas (DATE_FORMAT, DATEPART)
+    WHERE
+    LIKE
+    IN
+    BETWEEN
+    ANY
+    ALL
+
+Material de estudo em anexo e dos links abaixo:
+www.tutorialrepublic.com/sql-tutorial/sql-get-started.php
+www.youtube.com/watch?v=rX2I7OjLqWE
+

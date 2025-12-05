@@ -1,0 +1,58 @@
+1- Escreva um aplicativo que apresente como saída as seguintes figuras geométricas:
+a) um retângulo
+b) uma elipse
+c) uma seta para cima
+d) um losango
+
+obs.: Todas as figuras devem ser realizadas com o caractere '*'.
+
+*********          ***               *               *
+*               *         *     *            ***           * *
+*               *        *       *         *****       *   *
+*               *        *       *            *            *     *
+*               *        *       *            *           *       *
+*               *        *       *            *            *     *
+*               *        *       *            *             *   *
+*               *         *     *             *              * *
+*********          ***              *                *
+
+
+2- Escreva um programa que leia um inteiro de entrada e utilize laço de repetição capaz de produzir as seguintes formas geométricas de saída simultaneamente.
+
+*       ***      ***       *
+**      **        **      **
+***     *          *     ***
+
+
+3- Escreva um programa que leia um número inteiro maior do que 4 que seja capaz de produzir um losango como saída:
+Exemplo:
+         *
+       ***
+     *****
+       ***
+         *
+
+
+
+4- Escreva um programa que calcule os quadrados e os cubos dos números de 0 a 10 e imprima os valores resultantes em forma de tabela.
+Obs_1: o programa não possui entrada de dados.
+Obs_2: obrigatório o uso de laço de repetição
+Obs_3: obrigatório o uso de array ou de collection
+
+saída:
+   número quadrado cubos
+   0 0 0
+   1 1 1
+   2 4 8
+   
+   10 100 1000
+
+
+5- Calcule as primeiras 10 sequências de números que satisfaçam a seguinte equação: a^2 = b^2 + c^2  
+Obs.: a, b e c devem ser inteiros positivos
+
+
+6- Escreva um programa que converta um número decimal informado para as bases:
+a) binária
+b) octal
+c) hexadecimal
