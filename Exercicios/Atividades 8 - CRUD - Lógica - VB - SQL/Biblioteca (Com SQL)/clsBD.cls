@@ -1,6 +1,10 @@
 VERSION 1.0 CLASS
 BEGIN
   MultiUse = -1  'True
+  Persistable = 0  'NotPersistable
+  DataBindingBehavior = 0  'vbNone
+  DataSourceBehavior  = 0  'vbNone
+  MTSTransactionMode  = 0  'NotAnMTSObject
 END
 Attribute VB_Name = "clsBD"
 Attribute VB_GlobalNameSpace = False
@@ -58,7 +62,7 @@ Public Function Inserir(strNome As String, intEdicao As Integer, strAutor As Str
    Dim rs As New ADODB.Recordset
    Dim connString As String
 
-   connString = "Driver=SQL Server;Server=10.11.12.7\lydsqlhml;Database=Desenv1;User Id=lydians_mdc;Password=lydians_mdc"
+   connString = "Driver=SQL Server;Server=11.22.33.44\bancoHML;Database=Dev1;User Id=Dev1_MDC;Password=ObviamenteEssaNaoEaSenhaEesseNaoEoBancoReal"
    conn.Open connString
 
    conn.BeginTrans
@@ -96,7 +100,7 @@ Public Function AtualizarRegistro(ID As Integer, Nome As String, Autor As String
    Dim rs As New ADODB.Recordset
    Dim connString As String
 
-   connString = "Driver=SQL Server;Server=10.11.12.7\lydsqlhml;Database=Desenv1;User Id=lydians_mdc;Password=lydians_mdc"
+   connString = "Driver=SQL Server;Server=11.22.33.44\bancoHML;Database=Dev1;User Id=Dev1_MDC;Password=ObviamenteEssaNaoEaSenhaEesseNaoEoBancoReal"
    conn.Open connString
 
    conn.BeginTrans
@@ -135,7 +139,7 @@ Public Function Selecionar() As Boolean
    Dim rs As New ADODB.Recordset
    Dim connString As String
 
-   connString = "Driver=SQL Server;Server=10.11.12.7\lydsqlhml;Database=Desenv1;User Id=lydians_mdc;Password=lydians_mdc"
+   connString = "Driver=SQL Server;Server=11.22.33.44\bancoHML;Database=Dev1;User Id=Dev1_MDC;Password=ObviamenteEssaNaoEaSenhaEesseNaoEoBancoReal"
    conn.Open connString
 
    conn.BeginTrans
@@ -172,7 +176,7 @@ DestruirObjetos:
    ' Limpar objetos
 End Function
 
-Public Function Pesquisar(listLivros As ListView, termoPesquisa As String) As Boolean
+ Public Function Pesquisar(listLivros As ListView, termoPesquisa As String) As Boolean
 
    On Error GoTo Pesquisar_E
 
@@ -181,8 +185,8 @@ Public Function Pesquisar(listLivros As ListView, termoPesquisa As String) As Bo
    Dim conn As New ADODB.Connection
    Dim rs As New ADODB.Recordset
    Dim connString As String
-
-   connString = "Driver=SQL Server;Server=10.11.12.7\lydsqlhml;Database=Desenv1;User Id=lydians_mdc;Password=lydians_mdc"
+   
+   connString = "Driver=SQL Server;Server=11.22.33.44\bancoHML;Database=Dev1;User Id=Dev1_MDC;Password=ObviamenteEssaNaoEaSenhaEesseNaoEoBancoReal"
    conn.Open connString
 
    conn.BeginTrans
@@ -238,7 +242,7 @@ Public Function PesquisarComListView(listLivros As ListView) As Boolean
    Dim rs As New ADODB.Recordset
    Dim connString As String
 
-   connString = "Driver=SQL Server;Server=10.11.12.7\lydsqlhml;Database=Desenv1;User Id=lydians_mdc;Password=lydians_mdc"
+   connString = "Driver=SQL Server;Server=11.22.33.44\bancoHML;Database=Dev1;User Id=Dev1_MDC;Password=ObviamenteEssaNaoEaSenhaEesseNaoEoBancoReal"
    conn.Open connString
 
    conn.BeginTrans
@@ -284,57 +288,6 @@ PesquisarListView_E:
 DestruirObjetos:
 End Function
 
-'Public Function Excluir(listLivros As ListView) As Boolean
-'
-'   On Error GoTo Excluir_E
-'
-'   Excluir = False
-'
-'   Dim conn As New ADODB.Connection
-'   Dim rs As New ADODB.Recordset
-'   Dim connString As String
-'
-'   connString = "Driver=SQL Server;Server=10.11.12.7\lydsqlhml;Database=Desenv1;User Id=lydians_mdc;Password=lydians_mdc"
-'   conn.Open connString
-'
-'   conn.BeginTrans
-'
-'   rs.Open "SELECT * FROM LIVROS_BRAYAN;", conn, adOpenKeyset
-'
-'   While Not rs.EOF
-'      colLivroID.Add rs.Fields.Item(0).Value
-'      colLivroNome.Add rs.Fields.Item(1).Value
-'      colLivroAutor.Add rs.Fields.Item(2).Value
-'      colLivroDTPubli.Add rs.Fields.Item(3).Value
-'      colLivroEdicao.Add rs.Fields.Item(4).Value
-'      rs.MoveNext
-'   Wend
-'
-'   rs.Close
-'
-'   For i = 1 To listLivros.ListItems.Count
-'      ID = colLivroID(i)
-'      If listLivros.ListItems(i).Selected Then
-'         Dim strDelete As String
-'         strDelete = "DELETE FROM LIVROS_BRAYAN WHERE ID = " & ID
-'         conn.Execute strDelete
-'         msg = "Livro " & colLivroNome(i) & " excluido!"
-'         Exit For
-'      End If
-'   Next i
-'
-'   conn.CommitTrans
-'
-'   conn.Close
-'
-'   Excluir = True
-'
-'   GoTo DestruirObjetos
-'
-'Excluir_E:
-'DestruirObjetos:
-'End Function
-
 Public Function Excluir() As Boolean
 
    On Error GoTo Excluir_E
@@ -345,7 +298,7 @@ Public Function Excluir() As Boolean
    Dim rs As New ADODB.Recordset
    Dim connString As String
 
-   connString = "Driver=SQL Server;Server=10.11.12.7\lydsqlhml;Database=Desenv1;User Id=lydians_mdc;Password=lydians_mdc"
+   connString = "Driver=SQL Server;Server=11.22.33.44\bancoHML;Database=Dev1;User Id=Dev1_MDC;Password=ObviamenteEssaNaoEaSenhaEesseNaoEoBancoReal"
    conn.Open connString
 
    conn.BeginTrans

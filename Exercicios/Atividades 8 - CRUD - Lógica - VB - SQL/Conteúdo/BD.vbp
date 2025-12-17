@@ -1,6 +1,6 @@
 Type=Exe
-Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\..\..\Windows\SysWOW64\stdole2.tlb#OLE Automation
-Reference=*\G{B691E011-1797-432E-907A-4D8C69339129}#6.1#0#..\..\..\..\..\..\Program Files (x86)\Common Files\System\ado\mC:\Program#Microsoft ActiveX Data Objects 6.1 Library
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\..\..\..\Windows\SysWOW64\stdole2.tlb#OLE Automation
+Reference=*\G{B691E011-1797-432E-907A-4D8C69339129}#6.1#0#..\..\..\..\..\..\..\Program Files (x86)\Common Files\System\ado\msado15.dll#Microsoft ActiveX Data Objects 6.1 Library
 Form=Form1.frm
 Startup="Form1"
 Command32=""
@@ -25,5 +25,6 @@ FDIVCheck=0
 UnroundedFP=0
 StartMode=0
 Unattended=0
+Retained=0
 ThreadPerObject=0
 MaxNumberOfThreads=1

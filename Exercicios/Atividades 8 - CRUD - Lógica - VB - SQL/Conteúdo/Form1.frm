@@ -41,7 +41,7 @@ Dim rs As New ADODB.Recordset
 Dim connString As String
 
 'connString = "Driver=SQL Server;Server=.\SQLEXPRESS;Database=Lab;Trusted_Connection=yes"
-connString = "Driver=SQL Server;Server=10.11.12.7\lydsqlhml;Database=Desenv1;User Id=lydians_mdc;Password=lydians_mdc"
+connString = "Driver=SQL Server;Server=11.22.33.44\bancoHML;Database=Dev1;User Id=Dev1_MDC;Password=ObviamenteEssaNaoEaSenhaEesseNaoEoBancoReal"
 conn.Open connString
 
 rs.Open "Select * from livros", conn, adOpenKeyset

@@ -13,8 +13,8 @@ Begin VB.Form Form1
    Begin VB.CommandButton cmdApagarArq 
       Caption         =   "23 - Apagar Arq."
       Height          =   375
-      Left            =   2280
-      TabIndex        =   22
+      Left            =   120
+      TabIndex        =   21
       Top             =   3480
       Width           =   2055
    End
@@ -22,15 +22,15 @@ Begin VB.Form Form1
       Caption         =   "22 - Copiar Arq. - Temp"
       Height          =   375
       Left            =   120
-      TabIndex        =   21
-      Top             =   3480
+      TabIndex        =   20
+      Top             =   3000
       Width           =   2055
    End
    Begin VB.CommandButton cmdVerificaLab 
       Caption         =   "21 - Verifica Lab.Txt"
       Height          =   375
       Left            =   4440
-      TabIndex        =   20
+      TabIndex        =   19
       Top             =   3000
       Width           =   2055
    End
@@ -38,14 +38,6 @@ Begin VB.Form Form1
       Caption         =   "20 - Compactar Arq"
       Height          =   375
       Left            =   2280
-      TabIndex        =   19
-      Top             =   3000
-      Width           =   2055
-   End
-   Begin VB.CommandButton cmdExtrairHTML 
-      Caption         =   "19 - Extrair HTML Pub."
-      Height          =   375
-      Left            =   120
       TabIndex        =   18
       Top             =   3000
       Width           =   2055
@@ -454,17 +446,6 @@ Private Sub cmdExcluirSemana_Click()
    End If
    'Limpa o objeto
    Set objRegistro = Nothing
-End Sub
-
-Private Sub cmdExtrairHTML_Click()
-'Averiguar com o conte
-'   Set objArquivos = CreateObject("LydiansWin.LYD_Zip")
-'
-'   objArquivos.Extrair "C:\Program Files (x86)\DevStudio\VB\ProjetosBrayan\Atividades 11\HTML_Publico.zip", "C:\Program Files (x86)\DevStudio\VB\ProjetosBrayan\Atividades 11\ArqExtraido"
-'
-'   MsgBox "Arquivo extraido em C:\Program Files (x86)\DevStudio\VB\ProjetosBrayan\Atividades 11\ArqExtraido"
-'
-'   Set objArquivos = Nothing
 End Sub
 
 Private Sub cmdNomePC_Click()

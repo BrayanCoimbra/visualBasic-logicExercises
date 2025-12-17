@@ -1,5 +1,4 @@
 VERSION 5.00
-Object = "{6B7E6392-850A-101B-AFC0-4210102A8DA7}#1.4#0"; "COMCTL32.OCX"
 Begin VB.Form frmBiblioteca 
    BackColor       =   &H80000004&
    Caption         =   "Biblioteca"
@@ -19,27 +18,17 @@ Begin VB.Form frmBiblioteca
       TabIndex        =   6
       Top             =   120
       Width           =   7455
-      Begin ComctlLib.ListView lstLivros 
+      Begin VB.PictureBox lstLivros 
+         BackColor       =   &H80000005&
+         ForeColor       =   &H80000008&
          Height          =   2415
          Left            =   240
+         OLEDragMode     =   1  'Automatic
+         ScaleHeight     =   2355
+         ScaleWidth      =   6915
          TabIndex        =   15
          Top             =   1320
          Width           =   6975
-         _ExtentX        =   12303
-         _ExtentY        =   4260
-         View            =   3
-         Sorted          =   -1  'True
-         LabelWrap       =   -1  'True
-         HideSelection   =   0   'False
-         OLEDragMode     =   1
-         _Version        =   327682
-         Icons           =   "ImageList1"
-         ForeColor       =   -2147483640
-         BackColor       =   -2147483643
-         BorderStyle     =   1
-         Appearance      =   1
-         OLEDragMode     =   1
-         NumItems        =   0
       End
       Begin VB.CommandButton cmdIr 
          Caption         =   "Ir"
@@ -190,7 +179,6 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
-'Dim livro As New clsLivro
 Private Library As clsBD
 Private i As Integer
 

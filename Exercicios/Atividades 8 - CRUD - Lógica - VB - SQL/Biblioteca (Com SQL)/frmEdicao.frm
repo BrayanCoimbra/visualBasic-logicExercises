@@ -212,7 +212,3 @@ Private Sub AtualizaCamposComLivroEncontrado()
       End If
    End If
 End Sub
-
-'Private Sub Form_Unload(Cancel As Integer)
-'   Me.Close
-'End Sub
